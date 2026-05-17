@@ -6,4 +6,4 @@ RUN mkdir -p /tmp/piston/isolate
 
 EXPOSE 2000
 
-CMD ["/piston/piston"]
+CMD ["node", "/piston/api/src/index.js"]
